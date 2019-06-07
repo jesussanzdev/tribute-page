@@ -6,7 +6,6 @@
 
 module.exports = {
   /* Your site config here */
-
-  // In your gatsby-config.js
-
+    // In your gatsby-config.js
+    pathPrefix: "/tribute-page",
 }
