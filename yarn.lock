@@ -1441,7 +1441,7 @@ babel-plugin-macros@^2.4.2:
   resolved "https://registry.yarnpkg.com/babel-plugin-macros/-/babel-plugin-macros-2.5.1.tgz#4a119ac2c2e19b458c259b9accd7ee34fd57ec6f"
   integrity sha512-xN3KhAxPzsJ6OQTktCanNpIFnnMsCV+t8OloKxIL72D6+SUZYFn9qfklPgef5HyyDtzYZqqb+fs1S12+gQY82Q==
   dependencies:
-    "@babel/runtime" "^7.4.2"
+    "@babel/runtime": "7.0.0-beta.55",
     cosmiconfig "^5.2.0"
     resolve "^1.10.0"
 
@@ -3056,7 +3056,7 @@ dom-helpers@^3.2.1:
   resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.4.0.tgz#e9b369700f959f62ecde5a6babde4bccd9169af8"
   integrity sha512-LnuPJ+dwqKDIyotW1VzmOZ5TONUN7CwkCR5hrgawTUbkBGYdeoNLZo6nNfGkCrjtE1nXXaj7iMMpDa8/d9WoIA==
   dependencies:
-    "@babel/runtime" "^7.1.2"
+    "@babel/runtime": "7.0.0-beta.55",
 
 dom-serializer@0:
   version "0.1.1"

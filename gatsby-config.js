@@ -6,4 +6,7 @@
 
 module.exports = {
   /* Your site config here */
+
+  // In your gatsby-config.js
+
 }
