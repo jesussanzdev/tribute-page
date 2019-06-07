@@ -1,11 +1,14 @@
 import React from 'react';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
-AOS.init(
-    {
-        duration: 3000,
-    }
-);
+import 'aos/dist/aos.css';
+
+if (typeof window !== `undefined`) {
+    AOS.init(
+        {
+            duration: 3000,
+        }
+    );  
+}
 
 const Biography = props => {
     return (
@@ -25,6 +28,8 @@ const Biography = props => {
                 </div> 
         </section>
     )
+
+    
 }
 
 export default Biography;

@@ -1,11 +1,14 @@
 import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-AOS.init(
-    {
-        duration: 2400,
-    }
-);
+
+if (typeof window !== `undefined`) {
+    AOS.init(
+        {
+            duration: 3000,
+        }
+    );  
+}
 
 const Legacy = props => {
     return (
