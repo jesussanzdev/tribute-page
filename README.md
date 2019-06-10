@@ -8,7 +8,7 @@
   Virginia Woolf Tribute Page
 </h1>
 
-Tribute page made to Virginia Woolf developed essentially with HTML5 and CSS3.
+Tribute page developed essentially with HTML5 and CSS3.
 
 Later the project was nested with GatsbyJS which allowed me to add functionality to the page thanks to plugins like AOS (Animation on scroll) or React Helmet.
 
